@@ -1,0 +1,109 @@
+
+
+#hero-img {
+display: flex;
+align-items: center;
+width: 1220px;
+background-image: url("/imagens/herosite.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+#hero-conteudo {
+display: flex;
+flex-direction: column;
+text-align: center;
+padding-bottom: 80px;
+
+
+}
+
+#conteudo-principal {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ align-items: center;
+padding-top: 10rem;
+ 
+
+  
+}
+
+
+#conteudo-principal h1{
+color:rgb(4, 0, 133);
+font-weight: 800;
+font-size: 40px;
+
+}
+
+#conteudo-principal h2{
+color:rgb(8, 0, 255);
+font-weight: 800;
+font-size: 30px;
+padding-bottom: 50px;
+}
+
+#hero-btn {
+height: 100px;
+width: 220px;
+border-radius: 120px;
+border: none;
+background-color: rgb(245, 248, 59);
+font-size: 25px;
+text-align: center;
+font-weight: 600;
+}
+
+#hero-btn:hover {
+background-color: antiquewhite;
+transition: 1s;
+}
+
+#destinos-brasil {
+text-align: center;
+padding: 30px;
+}
+
+#destinos-mundo {
+text-align: center;
+padding: 30px;
+}
+
+
+
+.destinos-container {
+display: flex;
+flex-direction: row;
+gap: 25px;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+.destinos-card {
+
+display: flex;
+flex-direction: column;
+
+}
+
+.card-content {
+text-align: justify;
+font-size: 18px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.card-img {
+width: 300px;
+height: 150px;
+}
